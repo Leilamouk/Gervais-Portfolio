@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./blue.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bleu{
+    color: #00C0FF;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.liste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.liste a{
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+}
+.social-media{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.identite{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    
+}
+.nom{  
+   margin-top: 100px; 
+   margin-right: 300px;
+   animation-duration: 3s;
+   animation-name: slidein;
+   animation-direction: alternate;
+}
+
+   @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.propos{
+    margin: 150px;
+    margin-left: 250px;
+    line-height: 15px;
+    
+}
+
+.app{
+    display: flex;
+    justify-content: space-around;
+}
+.carre{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-color: white;
+    border-style: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.comp{
+    margin: 150px;
+    margin-left: 250px;
+}
+.com{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.gche{
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.drte{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.prc{
+    margin-left: 220px;
+}
+.travaux{
+    margin: 100px;
+    
+}
+.photo{
+    margin: 50px;
+    margin-top: 100px;
+}
+
+
+   
